@@ -2,5 +2,5 @@ body{
     font-size: 16px;
     max-width: 1024px;
     border: solid red;
-    
+    margin: 0px auto;
 }
