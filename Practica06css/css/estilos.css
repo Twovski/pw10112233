@@ -1,0 +1,138 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+    color: white;
+    padding: 0px 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 30px 70px;
+}
+
+footer article{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#ALogo{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#HA01{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#HA02{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#button-submit{
+    border: 1px solid white;
+    background-color: #181a1c;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+#button-signin{
+    border: none;
+    background-color: #4d60d5;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+#search{
+    background-color: #dadbf1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+#search span{
+    font-size: 50px;
+    margin-bottom: 10px; 
+}
+
+#search form{
+    color: #555;
+    display: flex;
+    flex-flow: row wrap;
+    width: 450px;
+    height: 35px;
+    padding: 0px;
+    border: 1px solid currentColor;
+}
+
+#search form input{
+    border: none;
+    flex: 1;
+}
+
+#search button{
+    background-color: white;
+    border: none;
+}
+
+#icon-search{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+#information{
+    padding: 90px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#information article{
+    display: flex;
+    flex-flow: row;
+    width: 45%;
+    padding: 20px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-size{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.letter-large{
+    font-size: 16px;
+}
+
+.letter-bold{
+    font-weight: bold;
+}
+
+.linked{
+    color: #accaf4;
+    font-size: 13px;
+}

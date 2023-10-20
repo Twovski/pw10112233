@@ -1,0 +1,6 @@
+video{
+    border-radius: 5px;
+    box-shadow: -10px -10px rgba(10, 10, 150, 0.4);
+    margin-right: 15px;
+    width: 300px;
+}
