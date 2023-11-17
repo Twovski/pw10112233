@@ -1,0 +1,24 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "nodemon ./app.js"
+  },
+  "keywords": [
+    "API",
+    "PW",
+    "Alumnos"
+  ],
+  "author": "Francisco Ochoa Flores",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
